@@ -59,12 +59,15 @@ body {
 }
 .btn1 {
   color: #3c5a99;
+  margin: 5px;
 }
 .btn2 {
   color: white;
+  margin: 5px;
 }
 .btn3 {
   color: #fbbc05;
+  margin: 5px;
 }
 .btn4 {
   color: #25d366;
@@ -236,7 +239,10 @@ a {
 
 header {
   width: 100%;
-  background: #c5c6c7;
+  background: #e2e5e7;
+  justify-content: center;
+  position: absolute;
+
 }
 #btn-menu {
   display: none;
@@ -255,70 +261,9 @@ header label:hover {
   margin: 0;
   padding: 0;
   display: flex;
+position: inherit;
 }
-.menu a {
-  border-right: 1px solid #fff;
-  display: block;
-  padding: 15px 20px;
-  color: rgb(8, 8, 8);
-  text-decoration: none;
-  text-transform: lowercase;
-  font-family: "Amatic SC", cursive;
-  font-size: 25px;
-  z-index: 1000;
-}
-.menu a:last-child {
-  border-right: none;
-}
-.menu a:hover {
-  background: rgba(58, 56, 56, 0.3);
-}
-.dropdown {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background: #fff;
-  padding: 0;
-}
-.menu a:hover > .dropdown {
-  display: inline-block;
-}
-/*media_queries*/
-@media (min-width: 1201px) {
-  .menu {
-    justify-content: center;
-  }
-}
-@media (max-width: 1200px) {
-  .menu a {
-    border-right: 1px solid #fff;
-    text-align: center;
-    flex-grow: 1;
-  }
-  @media (max-width: 680px) {
-    header label {
-      display: block;
-    }
-    .menu {
-      position: absolute;
-      background: #eaeaee;
-      width: 100%;
-      margin-left: -100%;
-      transition: all 0.3s;
-      display: flex;
-      flex-direction: column;
-      z-index: 1000;
-    }
-    nav a {
-      display: block;
-      border-top: 1px solid #fff;
-    }
-    #btn-menu:checked ~ .menu {
-      margin: 0;
-    }
-  }
-}
+
 
 html,
 body {
@@ -481,7 +426,7 @@ select {
     "contenido contenido contenido"
     "main main main"
     "footer footer footer"
-  {
+   }
     
 }
 .card-columns {
@@ -489,6 +434,68 @@ select {
     column-count: 5;
   }
   @include media-breakpoint-only(xl) {
-    column-count: ;
+    column-count: 6;
   }
 }
+
+.nav-link{
+  font-family: "Amatic SC", cursive;
+  font-size: 1.8em;
+}
+.nav-link:hover{
+  box-shadow: inset 0 0 20px rgba(125, 133, 136, 0.5), 0 0 20px rgba(228, 231, 233, 0.4);
+  outline-color: rgba(49, 138, 172, 0);
+  outline-offset: 80px;
+  text-shadow: 1px 1px 6px #fff;
+}
+.nav-link {
+  border-color: #858481;
+  color: #fff;
+  background-image: -webkit-linear-gradient(45deg, #bdbbb7 50%, transparent 50%);
+  background-image: linear-gradient(45deg, #bdbbb7 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  -webkit-transition: background 400ms ease-in-out;
+  transition: background 300ms ease-in-out;
+}
+.nav-link:hover {
+  background-position: 0;
+}
+
+/* Custom, iPhone Retina */ 
+@media screen and (max-width : 400px) {
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media screen and (max-width : 500px) {
+
+}
+
+/* Small Devices, Tablets */
+@media screen and (max-width : 800px) {
+    /* your mobile css, change this as you please */
+    body {
+        background-color: #f7f7f7;
+        height: 80vh;
+        clear: both;
+        text-align: center;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media screen and (max-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media screen and (max-width : 1800px) {
+    /* your desktop css */
+    body {
+        background-color: #f7f7f7;
+        height: 80vh;
+        clear: both;
+        text-align: center;
+    }
+}
+
