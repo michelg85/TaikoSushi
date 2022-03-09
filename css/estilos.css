@@ -83,7 +83,7 @@ body {
 .rollsytablas img {
   width: 350px;
   vertical-align: middle;
-  margin: 0;
+  margin-top: ;
   padding: 0;
   -webkit-transition: 1s linear;
   transition: 0.3s linear;
@@ -122,7 +122,7 @@ body {
 .contenido1 {
   text-align: center;
   padding: 20px;
-  line-height: 300px;
+  line-height: 305px;
 }
 .mains {
   display: flex;
