@@ -494,8 +494,15 @@ select {
   font-family: "Amatic SC", cursive;
   font-size: 2rem;
 }
+
 .img-fluid{
   width: 35%;
+}
+.badge-md{
+  font-family: "Amatic SC", cursive;
+  font-size: 1.6rem;
+  color: white;
+  position: right;
 }
 
 
