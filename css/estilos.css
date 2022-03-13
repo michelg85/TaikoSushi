@@ -77,8 +77,8 @@ body {
 .rollsytablas img {
   width: 350px;
   vertical-align: middle;
-  margin-top: ;
-  padding: 0;
+  margin-top: 8px;
+  padding: 5px;
   -webkit-transition: 1s linear;
   transition: 0.3s linear;
   -webkit-transition: 1s linear;
@@ -93,8 +93,8 @@ body {
 .platos1 img {
   width: 350px;
   vertical-align: middle;
-  margin: 0;
-  padding: 0;
+  margin-top: 8px;
+  padding: 5px;
   -webkit-transition: 1s linear;
   transition: 0.3s linear;
   -webkit-transition: 1s linear;
