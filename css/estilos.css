@@ -446,7 +446,7 @@ select {
   background-image: linear-gradient(45deg, #bdbbb7 50%, transparent 50%);
   background-position: 100%;
   background-size: 400%;
-  -webkit-transition: background 400ms ease-in-out;
+  transition: background 400ms ease-in-out;
   transition: background 300ms ease-in-out;
 }
 .nav-link:hover {
