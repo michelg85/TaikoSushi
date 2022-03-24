@@ -133,11 +133,11 @@ body {
 
 .btn-whatsapp {
   display: block;
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
   position: fixed;
   right: 12px;
-  bottom: 10px;
+  bottom: 4px;
   border-radius: 50%;
   line-height: 1px;
   text-align: center;
