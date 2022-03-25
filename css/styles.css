@@ -64,23 +64,18 @@ body {
   font-family: "Amatic SC", cursive;
 }
 
-.btn1 {
-  color: #3c5a99;
-  margin: 5px;
-}
-
 .btn2 {
   color: white;
   margin: 5px;
 }
 
 .btn3 {
-  color: #fbbc05;
+  color: white;
   margin: 5px;
 }
 
 .btn4 {
-  color: #25d366;
+  color: white;
 }
 
 .rollsytablas img {
@@ -556,5 +551,22 @@ label {
     font-size: 1.6rem;
     color: white;
   }
+}
+
+.redessociales, .btn1, .btn2, .btn3 {
+  color: white;
+  margin: 5px;
+}
+
+.btn1:hover {
+  background: #3b5998;
+}
+
+.btn2:hover {
+  background: #833ab4;
+}
+
+.btn3:hover {
+  background: #25d366;
 }
 /*# sourceMappingURL=styles.css.map */

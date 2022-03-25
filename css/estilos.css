@@ -55,7 +55,7 @@ body {
   font-family: "Amatic SC", cursive;
 }
 .btn1 {
-  color: #3c5a99;
+  color: white;
   margin: 5px;
 }
 .btn2 {
@@ -63,11 +63,11 @@ body {
   margin: 5px;
 }
 .btn3 {
-  color: #fbbc05;
+  color: white;
   margin: 5px;
 }
 .btn4 {
-  color: #25d366;
+  color: white;
 }
 .btn1:hover {
   color: #4267b2;
