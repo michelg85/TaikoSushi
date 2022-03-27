@@ -717,3 +717,10 @@ footer {
     margin-left: 0;
   }
 }
+@media screen and (min-width: 1280px) {
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right {
+    width: 1250px;
+  }
+}
