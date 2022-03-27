@@ -727,7 +727,7 @@ footer {
   .footer-distributed .footer-left,
   .footer-distributed .footer-center,
   .footer-distributed .footer-right {
-    display: block;
+    flex-direction: column;
     width: 100%;
     margin-bottom: 40px;
     text-align: center;
