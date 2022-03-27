@@ -558,9 +558,9 @@ footer {
   bottom: 0;
 }
 
-@media screen and (max-height: 1920px) {
+@media (max-height: 800px) {
   footer {
-    position: relative;
+    position: static;
   }
   header {
     padding-top: 40px;
@@ -667,6 +667,8 @@ footer {
   color: #e0ac1c;
   text-decoration: none;
 }
+
+/* Footer Right */
 
 .footer-distributed .footer-right {
   width: 30%;
