@@ -510,13 +510,15 @@ label {
   justify-content: center;
   align-items: center;
   background-color: #e2e5e7;
+  color: gray;
 }
 .credito p {
   margin: 1vh 0 0 0;
+  color: gray;
 }
 .texto3 {
   font-family: "Amatic SC", cursive;
-  color: black;
+  color: rgb(0, 0, 0);
   text-decoration: underline;
   font-size: 1.2rem;
   padding-left: 1vh;
