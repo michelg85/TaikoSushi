@@ -41,20 +41,6 @@ body {
   background-attachment: fixed;
 }
 
-.footer {
-  position: relative;
-  width: 100%;
-  display: block;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  background-color: var(--dark);
-  color: white;
-  background-color: rgb(0, 0, 0);
-  opacity: 0.8;
-  font-family: "Amatic SC", cursive;
-}
-
 .btn2 {
   color: white;
   margin: 5px;
@@ -560,7 +546,7 @@ footer {
 
 @media (max-height: 800px) {
   footer {
-    position: static;
+    position: fixed;
   }
   header {
     padding-top: 40px;
