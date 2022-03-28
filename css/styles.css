@@ -611,7 +611,7 @@ svg {
 }
 
 footer {
-  position: static;
+  position: fixed;
   bottom: 0;
 }
 
