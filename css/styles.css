@@ -43,6 +43,27 @@ body {
   background-attachment: fixed;
 }
 
+.footer {
+  position: relative;
+  width: 100%;
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: var(--dark);
+  color: white;
+  background-color: black;
+  opacity: 0.8;
+  font-family: "Amatic SC", cursive;
+}
+
 .btn2 {
   color: white;
   margin: 5px;
@@ -590,13 +611,13 @@ svg {
 }
 
 footer {
-  position: fixed;
+  position: static;
   bottom: 0;
 }
 
 @media (max-height: 800px) {
   footer {
-    position: fixed;
+    position: static;
   }
   header {
     padding-top: 40px;
