@@ -23,36 +23,11 @@ h2 {
   text-decoration: underline;
 }
 
-.seccion2 {
-  color: white;
-  font-size: 1rem;
-  text-align: center;
-  background-color: var(--dark);
-  font-family: "Amatic SC", cursive;
-  bottom: 0;
-  background-color: rgb(0, 0, 0);
-  opacity: 0.8;
-}
-
 body {
   background-image: url("../imagenes/fondo.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-}
-
-.footer {
-  position: relative;
-  width: 100%;
-  display: block;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  background-color: var(--dark);
-  color: white;
-  background-color: rgb(0, 0, 0);
-  opacity: 0.8;
-  font-family: "Amatic SC", cursive;
 }
 
 .btn2 {
@@ -183,18 +158,6 @@ body {
 }
 .glosario:hover {
   font-size: 28px;
-}
-.footer2 {
-  color: white;
-  text-align: center;
-  width: 100%;
-  font-size: 1.2rem;
-  background-color: rgb(0, 0, 0);
-  opacity: 0.8;
-  font-family: "Amatic SC", cursive;
-  position: relative;
-  bottom: 0;
-  display: block;
 }
 
 .taikocontacto {
@@ -404,15 +367,7 @@ label {
     animation: typing 2s steps(21, end),
       blink-caret 0.5s step-end infinite alternate;
   }
-  @media screen and (max-width: 768px) {
-    .contenedor3 {
-      grid-template-areas:
-        "header header header"
-        "contenido contenido contenido"
-        "main main main"
-        "footer footer footer";
-    }
-  }
+
   .nav-link {
     font-family: "Amatic SC", cursive;
     font-size: 1.8em;
