@@ -398,31 +398,16 @@ label {
   }
 
   /* Custom, iPhone Retina */
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 720px) {
   }
 
   /* Extra Small Devices, Phones */
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 720px) {
   }
 
   /* Small Devices, Tablets */
   @media screen and (max-width: 800px) {
     /* your mobile css, change this as you please */
-    body {
-      background-color: #f7f7f7;
-      height: 80vh;
-      clear: both;
-      text-align: center;
-    }
-  }
-
-  /* Medium Devices, Desktops */
-  @media screen and (max-width: 992px) {
-  }
-
-  /* Large Devices, Wide Screens */
-  @media screen and (max-width: 1800px) {
-    /* your desktop css */
     body {
       background-color: #f7f7f7;
       height: 80vh;
