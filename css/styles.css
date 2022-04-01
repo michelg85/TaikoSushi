@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Josefin+Sans&family=Secular+One&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:700");
 * {
   margin: 0;
   padding: 0;
@@ -442,7 +441,6 @@ label {
     text-shadow: 1px 1px 6px #fff;
   }
   .nav-link {
-    border-color: #858481;
     color: #fff;
     background-image: linear-gradient(45deg, #bdbbb7 50%, transparent 50%);
     background-position: 100%;
@@ -810,5 +808,9 @@ body {
 
 .wrapper img {
   padding: 10px;
+}
+
+.card-text {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
 }
 /*# sourceMappingURL=styles.css.map */

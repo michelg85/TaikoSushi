@@ -667,7 +667,7 @@ svg {
   }
 }
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:700');
+
 
 // Variables
 $font: "Amatic SC", cursive;
@@ -754,4 +754,8 @@ html, body {
    img {
       padding: 10px;
    }
+}
+.card-text{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important
+
 }
