@@ -185,7 +185,7 @@ a {
 header {
   width: 100%;
   background: #e2e5e7;
-  justify-content: center;
+  justify-content: start;
   position: absolute;
 }
 #btn-menu {
@@ -370,7 +370,7 @@ label {
 
   .nav-link {
     font-family: "Amatic SC", cursive;
-    font-size: 1.8em;
+    font-size: 1.5em;
   }
   .nav-link:hover {
     box-shadow: inset 0 0 20px rgba(125, 133, 136, 0.5),
@@ -765,3 +765,4 @@ html, body {
   flex-wrap: wrap;
   justify-content: center;
 }
+
