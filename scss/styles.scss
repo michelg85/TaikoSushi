@@ -271,7 +271,7 @@ textarea {
   border: 1px solid rgba(0, 0, 0, 0.2);
   background: rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease;
-  color: rgb(5, 5, 5);
+  color: rgb(255, 255, 255);
   font-family: "Amatic SC", cursive;
 }
 
@@ -384,10 +384,10 @@ label {
     color: #fff;
     background-image: -webkit-linear-gradient(
       45deg,
-      #bdbbb7 50%,
+      #e2e5e7 50%,
       transparent 50%
     );
-    background-image: linear-gradient(45deg, #bdbbb7 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #e2e5e7 50%, transparent 50%);
     background-position: 100%;
     background-size: 400%;
     transition: background 400ms ease-in-out;
