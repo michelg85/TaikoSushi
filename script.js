@@ -31,5 +31,5 @@ let cupon = prompt("Si tenés un cupón de descuento, ingresalo aquí:") //los c
 
 //llamamos a la funcion y luego mostramos el precio final por alert
 let precioFinal = calcularPrecio(producto, cantidadMeses, cupon);
-alert("El precio total de tu suscripción es $" + precioFinal + ". Al finalizar revisá tu correo para finalizar el pago.");
+alert("El precio total de tu suscripción es $" + precioFinal + ". Al finalizar revisá tu correo ("+mail+") para finalizar el pago.");
 alert("¡Que lo disfrutes!");
