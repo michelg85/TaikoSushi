@@ -13,7 +13,7 @@ function calcularPrecio (precioProducto, cantidadProducto, porcentajeDescuento, 
 
 const envio = 800; //valor aproximado del costo de envio promedio dentro de CABA
 
-//le pedimos al usuario el precio de los productos, la cantidad y el porcentaje del descuento
+//le pedimos al usuario el precio de los productos, la cantidad y el porcentaje del descuento. 
 let producto = parseFloat(prompt("Ingrese el precio del producto que desea comprar:"));
 let cantidad = parseInt(prompt("Ingrese la cantidad de unidades que desea comprar de este producto:"));
 let direccion = parseInt(prompt("Ingrese su dirección (solo envíos dentro de CABA):"))
