@@ -25,11 +25,11 @@ const producto = 1500
 //le pedimos al usuario que ingrese la cantidad de meses que quiere suscribirse, la dirección, mail y si tiene un cupón de descuento para ingresar.  
 let cantidadMeses = parseInt(prompt("Ingrese la cantidad de meses de suscripción:"));
 let direccion = parseInt(prompt("Ingrese su dirección a la que tenemos que enviar tu Taiko Bounty:"))
-let mail = parseInt(prompt("Ingresá tu mail para link de pago:"))
+let mail = prompt("Ingresá tu mail para link de pago:")
 let cupon = prompt("Si tenés un cupón de descuento, ingresalo aquí:") //los cupones en este caso serian los porcentajes de descuento, lo pongo asi para que quede mas visual
 
 
 //llamamos a la funcion y luego mostramos el precio final por alert
 let precioFinal = calcularPrecio(producto, cantidadMeses, cupon);
-alert("El precio total de tu suscripción es $" + precioFinal + ". Revisá tu correo ("+mail+") para finalizar el pago.");
+alert("El precio total de tu suscripción es $" + precioFinal + ". Al finalizar revisá tu correo para finalizar el pago.");
 alert("¡Que lo disfrutes!");
